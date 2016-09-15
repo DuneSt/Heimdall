@@ -1,0 +1,14 @@
+{
+	"category" : "Heimdall-Core-util",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "GuillaumeLarcheveque 4/13/2016 11:04",
+	"instvars" : [
+		 ],
+	"name" : "HMAdminGroup",
+	"pools" : [
+		 ],
+	"super" : "HMGroup",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+accessing
+groups: aCollectionOfGroups
+	self explicitRequirement

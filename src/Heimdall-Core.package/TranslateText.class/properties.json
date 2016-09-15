@@ -1,0 +1,14 @@
+{
+	"category" : "Heimdall-Core-util",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "GuillaumeLarcheveque 12/24/2015 11:10",
+	"instvars" : [
+		"textsByLanguage" ],
+	"name" : "TranslateText",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

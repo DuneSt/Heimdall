@@ -1,0 +1,1 @@
+I am an exception when we look for an user that does not exist
