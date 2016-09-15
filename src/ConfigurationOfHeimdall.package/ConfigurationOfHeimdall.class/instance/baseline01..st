@@ -11,5 +11,5 @@ baseline01: spec
 					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/Seaside/MetacelloConfigurations/main/' ].
 		spec 
-			package: #Heimdall;
+			package: #'Heimdall-Core';
 			package: #'Heimdall-Seaside'. ].
