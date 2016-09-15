@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfHeimdall",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfHeimdall",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
