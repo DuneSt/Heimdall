@@ -1,0 +1,1 @@
+I am a trait to make a seaside component benefits from everything provided by HeimdallSession
