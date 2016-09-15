@@ -1,5 +1,5 @@
 rendering
 renderLogoutAnchorOn: html
 	html anchor
-		callback: [ self session loggable: nil ];
+		callback: [ self session disconnect ];
 		with: 'Logout ' , self session loggable login
