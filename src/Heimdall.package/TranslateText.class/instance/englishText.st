@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 englishText
 	^ self textsByLanguage at: #english
