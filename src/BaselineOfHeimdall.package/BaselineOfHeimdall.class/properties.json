@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfHeimdall",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfHeimdall",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
