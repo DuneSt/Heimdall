@@ -1,0 +1,18 @@
+{
+	"category" : "Heimdall-Seaside",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TLoggable classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"login",
+		"password",
+		"id" ],
+	"name" : "HeimdallSimpleLoggable",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TLoggable",
+	"type" : "normal" }
