@@ -1,0 +1,14 @@
+{
+	"category" : "Heimdall-Exception",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "GuillaumeLarcheveque 4/14/2016 11:37",
+	"instvars" : [
+		"name" ],
+	"name" : "HMNoUserWithThisNameException",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }
