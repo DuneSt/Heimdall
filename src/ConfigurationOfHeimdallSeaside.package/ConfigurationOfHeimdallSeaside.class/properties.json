@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfHeimdallSeaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfHeimdallSeaside",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
