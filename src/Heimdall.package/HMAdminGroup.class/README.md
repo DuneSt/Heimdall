@@ -1,1 +1,0 @@
-I am a special group for admins, my users have all rights
