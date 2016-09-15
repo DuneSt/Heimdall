@@ -9,5 +9,4 @@ renderPasswordOn: html
 			html passwordInput
 				id: htmlID;
 				value: password;
-				callback: [ :value | password := value ];
-				yourself ]
+				callback: [ :value | password := value ] ]

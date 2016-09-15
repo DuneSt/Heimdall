@@ -10,5 +10,4 @@ renderUserOn: html
 				id: htmlID;
 				value: userID;
 				callback: [ :value | userID := value ];
-				script: 'document.getElementById(' , htmlID printString , ').focus()';
-				yourself ]
+				script: 'document.getElementById(' , htmlID printString , ').focus()' ]
