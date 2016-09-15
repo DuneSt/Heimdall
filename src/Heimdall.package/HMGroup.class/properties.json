@@ -1,0 +1,18 @@
+{
+	"category" : "Heimdall-util",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TRightConstrained classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"users",
+		"rights",
+		"name" ],
+	"name" : "HMGroup",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TRightConstrained",
+	"type" : "normal" }
