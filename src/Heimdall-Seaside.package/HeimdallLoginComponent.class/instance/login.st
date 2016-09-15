@@ -5,4 +5,5 @@ login
 	self session loggable: user.
 	user ifNotNil: [ 
 			userID := nil.
-			password := nil ]
+			password := nil ].
+	self postLoginActionOn: user

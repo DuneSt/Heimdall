@@ -1,3 +1,3 @@
 instance-creation
 withLoggableManager: aLoggableManager
-	^ self new loggableManager: aLoggableManager; yourself
+	^ self withLoggableManager: aLoggableManager postAction: nil
