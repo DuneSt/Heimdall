@@ -7,4 +7,5 @@ renderFormOn: html
 						renderUserOn: html;
 						renderPasswordOn: html;
 						renderWarningOn: html;
-						renderSubmitOn: html ]
+						renderSubmitOn: html;
+						warning: nil ]

@@ -1,3 +1,11 @@
 rendering
 renderWarningOn: html
-	html div: [ html span: self warning ]
+	self warning
+		ifNil: [ 
+			html div
+				class: 'instruction';
+				with: [ html span: self messageIfNoWarning ] ]
+		ifNotNil: [ :warn | 
+			html div
+				class: #loginFailure;
+				with: warn ]

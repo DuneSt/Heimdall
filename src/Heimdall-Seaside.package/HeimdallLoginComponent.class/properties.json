@@ -9,7 +9,8 @@
 		"userID",
 		"password",
 		"loggableManager",
-		"postLoginActionBlock" ],
+		"postLoginActionBlock",
+		"warning" ],
 	"name" : "HeimdallLoginComponent",
 	"pools" : [
 		 ],
