@@ -5,14 +5,8 @@ renderContentOn: html
 		with: [ 
 					html anchor
 						callback: [ self session language: #french ];
-						with: [ 
-									html image
-										class: 'fr';
-										resourceUrl: (HeimdallFileLibrary urlOf: 'frPng') asString ].
+						with: [ self renderFrenchFlagOn: html ].
 					html space.
 					html anchor
 						callback: [ self session language: #english ];
-						with: [ 
-									html image
-										class: 'en';
-										resourceUrl: (HeimdallFileLibrary urlOf: 'ukPng') asString ] ]
+						with: [ self renderEnglishFlagOn: html ] ]
