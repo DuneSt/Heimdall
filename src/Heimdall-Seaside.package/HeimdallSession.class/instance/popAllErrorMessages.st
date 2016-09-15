@@ -1,3 +1,6 @@
 error-management
 popAllErrorMessages 
-	^ self errorMessages removeAll
+	| messages |
+	messages := self errorMessages asOrderedCollection.
+	self errorMessages removeAll.
+	^ messages
