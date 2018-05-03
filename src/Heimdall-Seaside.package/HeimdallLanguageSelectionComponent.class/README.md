@@ -1,1 +1,0 @@
-I am a simple component to render a french and an english flag. When you click on a flag, the language will change.

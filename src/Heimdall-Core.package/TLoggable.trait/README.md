@@ -1,1 +1,0 @@
-I am a trait for every object that is loggable (like a Client, a user...)

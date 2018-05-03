@@ -1,1 +1,0 @@
-I am a standard login component
