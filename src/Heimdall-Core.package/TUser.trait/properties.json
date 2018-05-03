@@ -1,6 +1,7 @@
 {
-	"category" : "Heimdall-Core-Traits",
-	"classtraitcomposition" : "TRightConstrained classTrait",
 	"commentStamp" : "",
-	"name" : "TUser",
-	"traitcomposition" : "TRightConstrained" }
+	"traitcomposition" : "TRightConstrained",
+	"classtraitcomposition" : "TRightConstrained classTrait",
+	"category" : "Heimdall-Core-Traits",
+	"name" : "TUser"
+}

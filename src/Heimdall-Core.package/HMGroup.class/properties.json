@@ -1,18 +1,17 @@
 {
-	"category" : "Heimdall-Core-util",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "TRightConstrained classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "<historical>",
+	"classvars" : [ ],
 	"instvars" : [
 		"users",
 		"rights",
-		"name" ],
+		"name"
+	],
 	"name" : "HMGroup",
-	"pools" : [
-		 ],
+	"commentStamp" : "<historical>",
 	"super" : "Object",
 	"traitcomposition" : "TRightConstrained",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Heimdall-Core-util"
+}
