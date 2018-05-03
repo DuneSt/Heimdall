@@ -24,7 +24,7 @@ TranslateText class >> english: englishText french: frenchText [
 
 { #category : #comparing }
 TranslateText >> = anObject [
-	^ self == anObject or: [ self englishText = anObject englishText and: [ self frenchText = anObject frenchText ] ]
+	^ self == anObject or: [ self textsByLanguage = anObject textsByLanguage ]
 ]
 
 { #category : #accessing }
