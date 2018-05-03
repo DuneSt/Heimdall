@@ -22,10 +22,10 @@ TranslateTextTest >> testEquals [
 	self assert: inst1 equals: inst2.
 	
 	inst2 := 'English2' french: 'French'.
-	self deny: inst1 equals: inst2.
+	self deny: inst1 = inst2.
 	
 	inst2 := 'English' french: 'French2'.
-	self deny: inst1 equals: inst2
+	self deny: inst1 = inst2
 ]
 
 { #category : #tests }
