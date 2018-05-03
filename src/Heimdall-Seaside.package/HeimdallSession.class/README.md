@@ -1,1 +1,0 @@
-I am a session that store a loggable object to ensure a Customer is logged for example

@@ -1,3 +1,0 @@
-accessing
-loggableManager
-	^ self explicitRequirement
