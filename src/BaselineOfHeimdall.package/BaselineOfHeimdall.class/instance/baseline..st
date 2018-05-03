@@ -3,7 +3,16 @@ baseline: spec
 	<baseline>
 	spec
 		for: #common
-		do: [ self seaside3: spec.
+		do: [ 
+			"Dependencies"
+			self seaside3: spec.
+			
+			"Packages"
 			spec
 				package: #'Heimdall-Core';
-				package: #'Heimdall-Seaside' with: [ spec requires: #('Heimdall-Core' 'Seaside3') ] ]
+				package: #'Heimdall-Seaside' with: [ spec requires: #('Heimdall-Core' 'Seaside3') ].
+			
+			"Groups"
+			spec
+				group: 'minimal' with: #(#'Heimdall-Core');
+				group: 'seaside' with: #(#'Heimdall-Seaside') ]
