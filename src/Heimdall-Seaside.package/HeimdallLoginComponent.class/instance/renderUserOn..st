@@ -2,10 +2,9 @@ rendering
 renderUserOn: html
 	| htmlID |
 	html
-		div: [ 
-			html label
+		div: [ html label
 				for: (htmlID := html nextId);
-				with: 'User:'.
+				with: (self translate: 'User:' french: 'Utilisateur').
 			html textInput
 				id: htmlID;
 				value: userID;

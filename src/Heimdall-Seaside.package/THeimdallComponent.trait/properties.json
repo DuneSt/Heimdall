@@ -1,4 +1,5 @@
 {
-	"category" : "Heimdall-Seaside-Traits",
+	"name" : "THeimdallComponent",
 	"commentStamp" : "<historical>",
-	"name" : "THeimdallComponent" }
+	"category" : "Heimdall-Seaside-Traits"
+}

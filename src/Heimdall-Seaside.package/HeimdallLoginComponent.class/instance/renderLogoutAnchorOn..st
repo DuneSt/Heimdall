@@ -2,4 +2,4 @@ rendering
 renderLogoutAnchorOn: html
 	html anchor
 		callback: [ self session disconnect ];
-		with: 'Logout ' , self session loggable login
+		with: (self translate: 'Logout ' french: 'Déconnexion') , self session loggable login

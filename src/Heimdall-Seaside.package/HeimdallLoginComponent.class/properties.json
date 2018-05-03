@@ -1,18 +1,17 @@
 {
-	"category" : "Heimdall-Seaside",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "GuillaumeLarcheveque 8/20/2015 14:02",
+	"super" : "WAComponent",
+	"category" : "Heimdall-Seaside",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"userID",
 		"password",
 		"loggableManager",
 		"postLoginActionBlock",
-		"warning" ],
+		"warning"
+	],
 	"name" : "HeimdallLoginComponent",
-	"pools" : [
-		 ],
-	"super" : "WAComponent",
-	"type" : "normal" }
+	"type" : "normal"
+}
