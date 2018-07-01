@@ -4,7 +4,7 @@ I am a simple component to render a french and an english flag. When you click o
 Class {
 	#name : #HeimdallLanguageSelectionComponent,
 	#superclass : #WAComponent,
-	#category : 'Heimdall-Seaside'
+	#category : #'Heimdall-Seaside'
 }
 
 { #category : #rendering }
