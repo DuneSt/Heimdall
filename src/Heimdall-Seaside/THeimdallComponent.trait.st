@@ -3,7 +3,7 @@ I am a trait to make a seaside component benefits from everything provided by He
 "
 Trait {
 	#name : #THeimdallComponent,
-	#category : 'Heimdall-Seaside-Traits'
+	#category : #'Heimdall-Seaside-Traits'
 }
 
 { #category : #'error-management' }

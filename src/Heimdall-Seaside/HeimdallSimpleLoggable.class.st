@@ -8,7 +8,7 @@ Class {
 		'password',
 		'id'
 	],
-	#category : 'Heimdall-Seaside'
+	#category : #'Heimdall-Seaside'
 }
 
 { #category : #'as yet unclassified' }
