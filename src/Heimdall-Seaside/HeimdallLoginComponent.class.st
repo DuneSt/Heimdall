@@ -11,7 +11,7 @@ Class {
 		'postLoginActionBlock',
 		'warning'
 	],
-	#category : 'Heimdall-Seaside'
+	#category : #'Heimdall-Seaside'
 }
 
 { #category : #'instance-creation' }

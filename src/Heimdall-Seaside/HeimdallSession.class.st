@@ -10,7 +10,7 @@ Class {
 		'rootComponent',
 		'errorMessages'
 	],
-	#category : 'Heimdall-Seaside'
+	#category : #'Heimdall-Seaside'
 }
 
 { #category : #'connection open/close' }
