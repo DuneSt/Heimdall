@@ -1,7 +1,7 @@
 Class {
 	#name : #BaselineOfHeimdall,
 	#superclass : #BaselineOf,
-	#category : 'BaselineOfHeimdall'
+	#category : #BaselineOfHeimdall
 }
 
 { #category : #baseline }
@@ -15,15 +15,15 @@ BaselineOfHeimdall >> baseline: spec [
 			
 			"Packages"
 			spec
-				package: #'Heimdall-Core';
-				package: #'Heimdall-Core-Tests' with: [ spec requires: #('Heimdall-Core') ];
-				package: #'Heimdall-Seaside' with: [ spec requires: #('Heimdall-Core' 'Seaside3') ].
+				package: 'Heimdall-Core';
+				package: 'Heimdall-Core-Tests' with: [ spec requires: #('Heimdall-Core') ];
+				package: 'Heimdall-Seaside' with: [ spec requires: #('Heimdall-Core' 'Seaside3') ].
 			
 			"Groups"
 			spec
-				group: 'minimal' with: #(#'Heimdall-Core');
-				group: 'seaside' with: #(#'Heimdall-Seaside');
-				group: 'tests' with: #(#'Heimdall-Core-Tests') ]
+				group: 'minimal' with: #('Heimdall-Core');
+				group: 'seaside' with: #('Heimdall-Seaside');
+				group: 'tests' with: #('Heimdall-Core-Tests') ]
 ]
 
 { #category : #accessing }
@@ -39,5 +39,5 @@ BaselineOfHeimdall >> seaside3: spec [
 		baseline: 'Seaside3'
 		with: [ spec
 				loads: #('Core');
-				repository: 'github://SeasideSt/Seaside/repository' ]
+				repository: 'github://SeasideSt/Seaside:v3.4.x/repository' ]
 ]
