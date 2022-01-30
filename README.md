@@ -1,11 +1,5 @@
 # Heimdall
 
-#### Linux/OSX builds
-Master: [![Build Status](https://travis-ci.org/DuneSt/Heimdall.svg?branch=master)](https://travis-ci.org/DuneSt/Heimdall)| Development: [![Build Status](https://travis-ci.org/DuneSt/Heimdall.svg?branch=development)](https://travis-ci.org/DuneSt/Heimdall)
-
-#### Windows builds
-Master: [![Build status](https://ci.appveyor.com/api/projects/status/bjheqaf3kvxfjk8w/branch/master?svg=true)](https://ci.appveyor.com/project/jecisc/heimdall/branch/master) | Development: [![Build status](https://ci.appveyor.com/api/projects/status/bjheqaf3kvxfjk8w/branch/development?svg=true)](https://ci.appveyor.com/project/jecisc/heimdall/branch/development)
-
 Heimdall is a login identification system directly usable for [Seaside](https://github.com/SeasideSt/Seaside). 
 
 For now this is pretty exerimental. 
@@ -64,8 +58,8 @@ The first thing to do in order to use Heimdall is to add its `FileLibrary` to yo
 
 | Heimdall version 	| Compatible Pharo versions 	|
 |------------------	|---------------------------	|
-| v1.0.0	   		| Pharo 61                  	|
-| development      	| Pharo 61                  	|
+| v1.0.0	   		| Pharo 61, 70, 80, 90         	|
+| development      	| Pharo 61, 70, 80, 90         	|
 
 ## Contact
 
