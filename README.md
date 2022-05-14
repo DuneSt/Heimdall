@@ -58,8 +58,8 @@ The first thing to do in order to use Heimdall is to add its `FileLibrary` to yo
 
 | Heimdall version 	| Compatible Pharo versions 	|
 |------------------	|---------------------------	|
-| v1.0.0	   		| Pharo 61, 70, 80, 90         	|
-| development      	| Pharo 61, 70, 80, 90         	|
+| v1.x.x	   		| Pharo 61, 70, 80, 90, 10         	|
+| development      	| Pharo 61, 70, 80, 90, 10         	|
 
 ## Contact
 
